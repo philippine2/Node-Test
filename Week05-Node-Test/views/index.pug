@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    input#userInput(type="number")
+    button#getNineAction.btn.btn-success Get Nine
+    button#feetFromMilesAction.btn.btn-success Calculate Feet from Miles
+    pre#displayArea
+    script(src="bundle.js")
